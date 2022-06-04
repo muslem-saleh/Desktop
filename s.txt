@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace InsertionSort
+{
+    class InsertionSort
+    {
+        static void Main(String[]args)
+        {
+            int[] x = { 5, 10, 9, 4, 15, 8, 12 };
+            int j;
+            int temp;
+            for (int i = 1; i < x.Length; i++)
+            {
+                j = i - 1;
+                while (j >= 0 && x[j] > x[j + 1])
+                {
+                    temp = x[j];
+                    x[j]= x[j + 1];
+                    x[j+1]= temp;
+                    j = j - 1;
+
+
+                }
+            }
+            for (int i = 0; i <x.Length; i++)
+            {
+                Console.WriteLine("\n");
+                Console.WriteLine(x[i]);
+            }
+
+
+        }
+    }
+}

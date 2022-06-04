@@ -1,0 +1,80 @@
+{
+  "TimeCreated": "20211210T053020",
+  "Name": "restart",
+  "Events": [
+    {
+      "Timestamp": 7005,
+      "Msg": "{\"EventAction\":\"TabClosed\",\"tabKey\":\"com.tap4fun.reignofwar.androidme\",\"sendStopAppToAndroid\":\"True\",\"forceClose\":\"False\"}",
+      "EventType": "Client"
+    },
+    {
+      "Timestamp": 7043,
+      "Msg": "{\"EventAction\":\"TabSelected\",\"tabKey\":\"Home\"}",
+      "EventType": "Client"
+    },
+    {
+      "Timestamp": 15611,
+      "Msg": "{\"EventAction\":\"RunApp\",\"Package\":\"com.tap4fun.reignofwar.androidme\",\"Activity\":\"com.tap4fun.reignofwar.SplashShow\"}",
+      "EventType": "Client"
+    },
+    {
+      "Timestamp": 15709,
+      "Msg": "{\"EventAction\":\"TabSelected\",\"tabKey\":\"com.tap4fun.reignofwar.androidme\"}",
+      "EventType": "Client"
+    },
+    {
+      "Timestamp": 17456,
+      "X": 7.53,
+      "Y": 71.17,
+      "Delta": 0,
+      "EventType": "MouseDown"
+    },
+    {
+      "Timestamp": 17583,
+      "X": 7.53,
+      "Y": 71.17,
+      "Delta": 0,
+      "EventType": "MouseUp"
+    },
+    {
+      "Timestamp": 43188,
+      "X": 90.32,
+      "Y": 96.77,
+      "Delta": 0,
+      "EventType": "MouseDown"
+    },
+    {
+      "Timestamp": 43292,
+      "X": 90.32,
+      "Y": 96.77,
+      "Delta": 0,
+      "EventType": "MouseUp"
+    },
+    {
+      "Timestamp": 54764,
+      "X": 4.3,
+      "Y": 71.17,
+      "Delta": 0,
+      "EventType": "MouseDown"
+    },
+    {
+      "Timestamp": 54855,
+      "X": 4.3,
+      "Y": 71.17,
+      "Delta": 0,
+      "EventType": "MouseUp"
+    }
+  ],
+  "LoopType": "UntilStopped",
+  "LoopNumber": 1,
+  "LoopTime": 0,
+  "LoopInterval": 1200,
+  "Acceleration": 1.0,
+  "PlayOnStart": false,
+  "DonotShowWindowOnFinish": true,
+  "RestartPlayer": false,
+  "RestartPlayerAfterMinutes": 60,
+  "ShortCut": "",
+  "UserName": "",
+  "MacroId": ""
+}

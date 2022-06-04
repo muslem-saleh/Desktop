@@ -1,0 +1,41 @@
+using System;
+class programs
+{
+    void sort(int[] m)
+    {
+        int n = m.Length;
+        for (int i = 1;i< n; ++i)
+        {
+            int key = m[i];
+            int j = i - 1;
+            while (j >= 0 && m[j] > key)
+            {
+                m[j + 1] = m[j];
+                j = j - 1;
+
+            }
+            m[j + 1] = key;
+
+
+        }
+    }
+    static void printArray(int[] m)
+    {
+        int n = m.Length;
+        for (int i = 0; i < n; ++i)
+            Console.Write(m[i] + " ");
+        Console.Write("\n");
+        Console.ReadKey();
+
+    }
+    public static void Main()
+    {
+        int[] m = { 12, 4, 3, 5, 9, 15, 1 };
+        programs ob =new 
+        programs();
+        ob.sort(m);
+        printArray(m);
+        Console.ReadKey();
+    }
+
+}
